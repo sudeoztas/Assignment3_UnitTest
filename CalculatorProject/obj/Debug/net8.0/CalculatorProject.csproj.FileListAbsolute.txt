@@ -1,0 +1,14 @@
+C:\Users\HP\RiderProjects\CalculatorProject\CalculatorProject\bin\Debug\net8.0\CalculatorProject.exe
+C:\Users\HP\RiderProjects\CalculatorProject\CalculatorProject\bin\Debug\net8.0\CalculatorProject.deps.json
+C:\Users\HP\RiderProjects\CalculatorProject\CalculatorProject\bin\Debug\net8.0\CalculatorProject.runtimeconfig.json
+C:\Users\HP\RiderProjects\CalculatorProject\CalculatorProject\bin\Debug\net8.0\CalculatorProject.dll
+C:\Users\HP\RiderProjects\CalculatorProject\CalculatorProject\bin\Debug\net8.0\CalculatorProject.pdb
+C:\Users\HP\RiderProjects\CalculatorProject\CalculatorProject\obj\Debug\net8.0\CalculatorProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\RiderProjects\CalculatorProject\CalculatorProject\obj\Debug\net8.0\CalculatorProject.AssemblyInfoInputs.cache
+C:\Users\HP\RiderProjects\CalculatorProject\CalculatorProject\obj\Debug\net8.0\CalculatorProject.AssemblyInfo.cs
+C:\Users\HP\RiderProjects\CalculatorProject\CalculatorProject\obj\Debug\net8.0\CalculatorProject.csproj.CoreCompileInputs.cache
+C:\Users\HP\RiderProjects\CalculatorProject\CalculatorProject\obj\Debug\net8.0\CalculatorProject.dll
+C:\Users\HP\RiderProjects\CalculatorProject\CalculatorProject\obj\Debug\net8.0\refint\CalculatorProject.dll
+C:\Users\HP\RiderProjects\CalculatorProject\CalculatorProject\obj\Debug\net8.0\CalculatorProject.pdb
+C:\Users\HP\RiderProjects\CalculatorProject\CalculatorProject\obj\Debug\net8.0\CalculatorProject.genruntimeconfig.cache
+C:\Users\HP\RiderProjects\CalculatorProject\CalculatorProject\obj\Debug\net8.0\ref\CalculatorProject.dll

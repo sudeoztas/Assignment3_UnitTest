@@ -53,5 +53,47 @@ namespace CalculatorTests
         {
             Assert.Throws<ArgumentException>(() => calculator.Calculate(5, 5, '%'));
         }
-    }
+        [Test]
+        public void TestVerySmallNumbersMultiplication()
+        {
+            double result = calculator.Calculate(0.00001, 0.00002, '*');
+            Assert.That(result, Is.EqualTo(0.0000000002).Within(0.00000000001));
+        }
+        
+        [Test]
+        public void TestNegativePlusPositive()
+        {
+            double result = calculator.Calculate(-5, 10, '+');
+            Assert.That(result, Is.EqualTo(5));
+        }
+        
+        [Test]
+        public void TestDivisionPositiveByNegative()
+        {
+            double result = calculator.Calculate(10, -2, '/');
+            Assert.That(result, Is.EqualTo(-5));
+        }
+        
+        [Test]
+        public void TestZeroDividedByNumber()
+        {
+            double result = calculator.Calculate(0, 5, '/');
+            Assert.That(result, Is.EqualTo(0));
+        }
+        
+        [Test]
+        public void TestUppercaseOperationCharacter()
+        {
+            Assert.Throws<ArgumentException>(() =>
+                calculator.Calculate(5, 5, 'A'));
+        }
+        
+        [Test]
+        public void TestWhitespaceAsOperation()
+        {
+            Assert.Throws<ArgumentException>(() =>
+                calculator.Calculate(3, 3, ' '));
+        }
+    
+   }
 }
